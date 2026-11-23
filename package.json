@@ -2,6 +2,7 @@
   "name": "@entradasya/payments",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@10.33.4",
   "description": "EntradasYa - servicio payments: pago simulado e idempotente por orden (P4)",
   "type": "module",
   "engines": {
