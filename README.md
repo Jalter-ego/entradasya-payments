@@ -2,6 +2,7 @@
 
 Pago **simulado** de una orden. Servicio interno: solo lo llama orders, con un token exclusivo del par orders ↔ payments. Guarda un único resultado por orden en su base `payments_db`, así repetir un cobro nunca crea otra transacción.
 
+
 - Contrato HTTP: [`contracts/payments.openapi.yaml`](../../contracts/payments.openapi.yaml).
 - Modelo de datos: [README de bases, sección P4](../../docs/database/README.md#6-p4--payments_db-y-notifications).
 - Plan: tareas D2, D3 y D7 del [plan de implementación](../../docs/Plan_de_implementacion_EntradasYa_v1.md#p4---pago-correo-y-soporte-de-datos).
